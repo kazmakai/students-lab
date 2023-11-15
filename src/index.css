@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Courier New', Courier, monospace;
+  color: white;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 900px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2em;
+  padding: 3em;
+  /* border: 2px solid black; */
+  background-color: black;
+  border-radius: 16px;
+}
+
+.scores {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0;
+  /* border: 2px solid red; */
+}
+
+.actual-score {
+  color: yellow;
+}
